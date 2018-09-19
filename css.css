@@ -1,0 +1,23 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+}
+
+.warning-field {
+    width: 100%;
+    font-size: 11px;
+    background-color: orange;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
